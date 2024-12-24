@@ -1,0 +1,548 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: rings;
+    src: url(../Fontes/Oldenburg-Regular.ttf) format('truetype');
+}
+
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    /*colors(#DAAB4C-#BF8C24-#9E6F0E-#7A5200-#503500)*/
+    --cor5: #07062c;
+    --cor4: #504821;
+    --cor3: #dda534;
+    --cor2: #1d1506;
+    --cor1: #2600ff;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 1em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    background-image: url(../Imagens/background/body-layout.jpg);
+
+}
+
+header {
+    position: relative;
+    padding: 2em 0em 4em 0em;
+    max-height: 1.7em;
+
+}
+
+main {
+
+    overflow: hidden;
+    border-radius: 15px;
+    border: 7px solid #dda534;
+    width: 80%;
+    margin: auto;
+    background: #3a3a3abd;
+}
+
+h1 {
+    text-align: center;
+    max-width: 50em;
+}
+
+h2 {
+    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+    color: var(--cor3);
+}
+
+h3 {
+    color: var(--cor3);
+    text-decoration: underline;
+    text-align: left;
+}
+
+footer>ul>li {
+    margin-left: 20px;
+}
+
+footer>p {
+    color: #221700;
+}
+
+span {
+    color: #ffaa00;
+    text-shadow: 2px 2px 3px black;
+    font-weight: bold;
+}
+
+a {
+    color: #d4d4d4;
+    text-decoration: none;
+}
+
+footer {
+
+    border-top: 10px solid #ffaa00;
+    padding: 10px;
+    background-color: #dda534ce;
+}
+
+p {
+    max-width: 100%;
+    color: #ffd88a;
+}
+
+
+.link {
+    background-color: #3a3a3abd;
+    border: 5px solid #dda534;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 3px black;
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    padding: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    color: var(--cor3);
+    margin-top: 80px;
+}
+
+#link1 {
+
+    margin-right: 30px;
+    color: var(--cor3);
+}
+
+#link2 {
+
+    margin-left: 30px;
+    color: var(--cor3);
+}
+
+#link1,
+#link2 {
+    color: #ffb82b;
+    width: 100px;
+    border-radius: 6px;
+    padding: 5px;
+    height: 18px;
+    background-color: #946810;
+    border: 5px solid #503605;
+
+
+}
+
+#pprinc {
+    text-align: center;
+    padding: 10px;
+    height: 18px;
+    width: 150px;
+    position: absolute;
+    margin-top: 50px;
+    color: #ffb82b;
+    border-radius: 6px;
+    background-color: #946810;
+    border: 5px solid #503605;
+
+
+}
+
+
+#link1:active,
+#link2:active,
+#pprinc:active {
+
+
+    color: #d69b24;
+    background-color: #7c5810;
+    box-shadow: inset 1px 1px 2px black;
+}
+
+#logot {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    max-width: 200px;
+
+}
+
+#license {
+    font-size: 15px;
+    color: #221700;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.bollnone {
+
+    border-radius: 10px;
+    width: 25%;
+    background-color: #3a3a3ace;
+    line-height: 2em;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.fontf {
+    text-shadow: none;
+    font-weight: bold;
+    color: #d4d4d4;
+}
+
+#fontf2 {
+    text-shadow: none;
+    font-weight: bold;
+    color: #292010;
+}
+
+.align1 {
+    padding: 10px;
+    background-image: linear-gradient(to right, #ffaa003d 10%, #ffaa0000 60%);
+    margin-bottom: 30px;
+}
+
+.align2 {
+
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    white-space: pre-line;
+
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+.align4 {
+    background-image: url(../Imagens/background/corvo1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right top;
+    box-shadow: inset 0px 0px 10px 5px black;
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    white-space: pre-line;
+
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+.align41 {
+    padding: 10px;
+    text-shadow: 2px 2px 4px black;
+    width: 70%;
+    background-color: rgba(32, 32, 32, 0.616);
+}
+
+.align5 {
+    margin-bottom: 50px;
+    width: 80%;
+    height: 90%;
+    white-space: pre-line;
+
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.align6 {
+    box-shadow: inset 0px 0px 10px 5px black;
+    background-image: url(../Imagens/background/corvo2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    white-space: pre-line;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+
+.align61 {
+    padding: 10px;
+    text-shadow: 2px 2px 4px black;
+    width: 70%;
+    background-color: #2020209d;
+
+}
+
+.align7 {
+    box-shadow: inset 0px 0px 10px 5px black;
+    background-image: url(../Imagens/background/corvo3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    white-space: pre-line;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+.align71 {
+    padding: 10px;
+    text-shadow: 2px 2px 4px black;
+    width: 70%;
+    background-color: rgba(32, 32, 32, 0.616);
+}
+
+.align8 {
+    box-shadow: inset 0px 0px 10px 5px black;
+    background-image: url(../Imagens/background/corvo4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    white-space: pre-line;
+
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+.align81 {
+    padding: 10px;
+    text-shadow: 2px 2px 4px black;
+    width: 70%;
+    background-color: #2020209d;
+}
+
+.align2,
+.align4,
+.align3,
+.align5,
+.align6,
+.align7,
+.align8 {
+    
+    text-shadow: 2px 2px 4px black;
+    background-color: rgb(71, 71, 71);
+    margin: auto;
+    margin-bottom: 50px;
+    height: auto;
+    white-space: pre-line;
+
+    padding: 20px;
+
+}
+
+
+
+li>a:hover {
+    text-decoration: underline;
+}
+
+:visited {
+    color: #f1f1f1;
+}
+
+@media (min-width: 1440px) {
+
+
+
+
+    header {
+        margin-bottom: 5%;
+    }
+
+
+    footer {
+        font-size: 1.2vw;
+    }
+
+
+
+    h2 {
+        font-size: 2vw;
+    }
+
+    .link {
+        font-size: 1vw;
+        text-align: center;
+        width: 25%;
+        height: 128px;
+    }
+
+    #link1 {
+        padding: 2%;
+        width: 7vw;
+    }
+
+    #link2 {
+        padding: 2%;
+        width: 7vw;
+    }
+
+    #pprinc {
+        margin-top: 10%;
+        padding: 2%;
+        width: 14vw;
+    }
+
+    .align2,
+    .align4,
+    .align3,
+    .align5,
+    .align6,
+    .align7,
+    .align8 {
+        font-size: 1vw;
+    }
+
+
+    #logot {
+
+        top: 129%;
+        min-width: 19vw;
+        min-width: 20vw;
+
+    }
+
+    .align2 {
+        height: 100%;
+    }
+
+    .bollnone {
+        font-size: 1vw;
+    }
+
+    #license {
+        font-size: 1vw;
+    }
+}
+
+@media (min-width: 727px) and (max-width: 1000px) {
+
+    .align41,
+    .align61,
+    .align71,
+    .align81 {
+        width: 95%;
+    }
+
+    .bollnone {
+        font-size: 12px;
+    }
+
+    .align3,
+    .align4 {
+
+
+        text-align: justify;
+    }
+
+    .align2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main {
+        width: 95%;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 726px) {
+
+    .align41,
+    .align61,
+    .align71,
+    .align81 {
+        width: 95%;
+    }
+
+    .bollnone {
+        width: 42%;
+        font-size: 10px;
+    }
+
+    .align3,
+    .align4 {
+
+
+        text-align: justify;
+    }
+
+    .align2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main {
+        width: 95%;
+    }
+}
+
+
+
+
+
+@media (max-width: 450px) {
+
+    .align2,
+    .align4,
+    .align3,
+    .align5,
+    .align6,
+    .align7,
+    .align8 {
+        padding-left: 10px;
+        background-position: center center;
+        font-size: 4vw;
+       
+        width: 98%;
+    }
+
+    .link {
+        text-align: center;
+        width: 80vw;
+
+    }
+
+    .align41,
+    .align61,
+    .align71,
+    .align81 {
+        margin: 0;
+        width: 91%;
+    }
+
+    .bollnone {
+        width: 58%;
+        font-size: 10px;
+    }
+
+    .align3,
+    .align4 {
+        text-align: justify;
+    }
+
+    .align2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main {
+        border: 3px solid var(--cor3);
+        width: 97%;
+    }
+}
