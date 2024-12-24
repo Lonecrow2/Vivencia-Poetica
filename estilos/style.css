@@ -535,20 +535,20 @@ li>a:hover {
     
     /*Otimização de desempenho*/
     .align4{
-        /* background-attachment: scroll; */
-        background-image: url(../Imagens/background/corvo3cell.jpg); 
+        background-attachment: scroll;
+        background-image: url(../Imagens/background/corvo1cell.jpg); 
     }
     .align6{
-        /* background-attachment: scroll; */
-        background-image: url(../Imagens/background/corvo3cell.jpg); 
+        background-attachment: scroll;
+        background-image: url(../Imagens/background/corvo2cell.jpg); 
     }
     .align7{
-        /* background-attachment: scroll; */
+        background-attachment: scroll;
         background-image: url(../Imagens/background/corvo3cell.jpg); 
     }
     .align8{
-        /* background-attachment: scroll; */
-        background-image: url(../Imagens/background/corvo3cell.jpg); 
+        background-attachment: scroll;
+        background-image: url(../Imagens/background/corvo4cell.jpg); 
     }
 
     body{
