@@ -479,16 +479,17 @@ li>a:hover {
 
     /*Otimização de desempenho*/
     .align4{
-        background-image: url(../Imagens/background/corvo1-cell.jpg);
+       
+        background-image: url(../Imagens/background/corvo1tablet.jpg);
     }
     .align6{
-        background-image: url(../Imagens/background/corvo2cell.jpg);
+        background-image: url(../Imagens/background/corvo2tablet.jpg);
     }
     .align7{
-        background-image: url(../Imagens/background/corvo3cell.jpg);
+        background-image: url(../Imagens/background/corvo3tablet.jpg);
     }
     .align8{
-        background-image: url(../Imagens/background/corvo4cell.jpg);
+        background-image: url(../Imagens/background/corvo4tablet.jpg);
     }
 
     body{
@@ -534,20 +535,20 @@ li>a:hover {
     
     /*Otimização de desempenho*/
     .align4{
-        background-attachment: scroll;
-        /* background-image: url(../Imagens/background/corvo1-cell.jpg); */
+        /* background-attachment: scroll; */
+        background-image: url(../Imagens/background/corvo3cell.jpg); 
     }
     .align6{
-        background-attachment: scroll;
-        /* background-image: url(../Imagens/background/corvo2cell.jpg); */
+        /* background-attachment: scroll; */
+        background-image: url(../Imagens/background/corvo3cell.jpg); 
     }
     .align7{
-        background-attachment: scroll;
-        /* background-image: url(../Imagens/background/corvo3cell.jpg); */
+        /* background-attachment: scroll; */
+        background-image: url(../Imagens/background/corvo3cell.jpg); 
     }
     .align8{
-        background-attachment: scroll;
-        /* background-image: url(../Imagens/background/corvo4cell.jpg); */
+        /* background-attachment: scroll; */
+        background-image: url(../Imagens/background/corvo3cell.jpg); 
     }
 
     body{
