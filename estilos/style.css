@@ -477,6 +477,23 @@ li>a:hover {
         font-size: 10px;
     }
 
+    .align4{
+        background-image: url(../Imagens/background/corvo1-cell.jpg);
+    }
+    .align6{
+        background-image: url(../Imagens/background/corvo2cell.jpg);
+    }
+    .align7{
+        background-image: url(../Imagens/background/corvo3cell.jpg);
+    }
+    .align8{
+        background-image: url(../Imagens/background/corvo4cell.jpg);
+    }
+
+    body{
+        background-image: url(../Imagens/background/body-layoutcell.jpg);
+    }
+    
     .align3,
     .align4 {
 
