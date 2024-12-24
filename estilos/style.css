@@ -477,6 +477,7 @@ li>a:hover {
         font-size: 10px;
     }
 
+    /*Otimização de desempenho*/
     .align4{
         background-image: url(../Imagens/background/corvo1-cell.jpg);
     }
@@ -493,6 +494,7 @@ li>a:hover {
     body{
         background-image: url(../Imagens/background/body-layoutcell.jpg);
     }
+     /*Otimização de desempenho*/
     
     .align3,
     .align4 {
@@ -529,6 +531,25 @@ li>a:hover {
        
         width: 98%;
     }
+    
+    /*Otimização de desempenho*/
+    .align4{
+        background-image: url(../Imagens/background/corvo1-cell.jpg);
+    }
+    .align6{
+        background-image: url(../Imagens/background/corvo2cell.jpg);
+    }
+    .align7{
+        background-image: url(../Imagens/background/corvo3cell.jpg);
+    }
+    .align8{
+        background-image: url(../Imagens/background/corvo4cell.jpg);
+    }
+
+    body{
+        background-image: url(../Imagens/background/body-layoutcell.jpg);
+    }
+     /*Otimização de desempenho*/
 
     .link {
         text-align: center;
