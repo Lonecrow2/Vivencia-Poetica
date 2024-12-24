@@ -351,6 +351,8 @@ p {
 
 
 
+
+
 li>a:hover {
     text-decoration: underline;
 }
@@ -479,16 +481,20 @@ li>a:hover {
 
     /*Otimização de desempenho*/
     .align4{
+        background-attachment: scroll;
        
         background-image: url(../Imagens/background/corvo1tablet.jpg);
     }
     .align6{
+        background-attachment: scroll;
         background-image: url(../Imagens/background/corvo2tablet.jpg);
     }
     .align7{
+        background-attachment: scroll;
         background-image: url(../Imagens/background/corvo3tablet.jpg);
     }
     .align8{
+        background-attachment: scroll;
         background-image: url(../Imagens/background/corvo4tablet.jpg);
     }
 
