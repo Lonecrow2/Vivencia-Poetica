@@ -100,6 +100,65 @@ p {
 }
 
 
+.secrel{
+    position: relative;
+}
+
+.navprin{
+
+    padding: 20px;
+    border-radius: 20%;
+    text-shadow: 1px 1px 2px black;
+    border: 2px solid #dda534;
+    background-image: linear-gradient(to right, #ffaa003d 10%, #ffaa0000 80%);
+    color: #dda534;
+    position: absolute;
+    top: 6px;
+    left: 60vw;
+    
+    
+}
+
+.navprin_h1{
+    color: #ffd88a;
+}
+
+.navprin_ol > a > li{
+    color: #f1f1f1;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 7px -4px 5px -5px;
+    background-color: #dda534;
+}
+
+.navprin_ol > a{
+    margin: 2px 0px 2px 0px;
+    background-color: #dda534;
+    color: black;
+}
+
+.navprin_ol{
+    list-style-position: inside;
+    text-align: center;
+    color: #dda534;
+}
+
+
+
+.navprin > ol{
+    display: none;
+}
+
+.navprin:hover{
+    border-radius: 0;
+}
+
+.navprin:hover > ol{
+    display: block;
+}
+
+
+
 .link {
     background-color: #3a3a3abd;
     border: 5px solid #dda534;
@@ -364,7 +423,13 @@ li>a:hover {
 @media (min-width: 1440px) {
 
 
-
+    .navprin {
+        border: 0.2vw solid #dda534;
+        font-size: 1.3vw;
+        padding: 2%;
+        top: 11px;
+        left: 65vw;
+    }
 
     header {
         margin-bottom: 5%;
@@ -467,6 +532,8 @@ li>a:hover {
 
 @media (min-width: 451px) and (max-width: 726px) {
 
+  
+
     .align41,
     .align61,
     .align71,
@@ -524,6 +591,12 @@ li>a:hover {
 
 
 @media (max-width: 450px) {
+
+    .navprin{
+        padding: 12px;
+        top: 125px;
+        left: 57vw;
+        }
 
     .align2,
     .align4,
