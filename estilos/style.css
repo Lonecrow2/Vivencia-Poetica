@@ -138,6 +138,7 @@ p {
 }
 
 .navprin_ol{
+    margin-top: 3.5vw;
     list-style-position: inside;
     text-align: center;
     color: #dda534;
@@ -430,6 +431,8 @@ li>a:hover {
         top: 11px;
         left: 65vw;
     }
+
+
 
     header {
         margin-bottom: 5%;
