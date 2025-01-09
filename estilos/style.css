@@ -595,6 +595,10 @@ li>a:hover {
 
 @media (max-width: 450px) {
 
+    .navprin_ol{
+        margin-top: 11.5vw;
+    }
+
     .navprin{
         padding: 12px;
         top: 125px;
