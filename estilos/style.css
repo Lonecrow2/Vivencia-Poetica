@@ -158,7 +158,9 @@ p {
     display: block;
 }
 
-
+#link_pai{
+    margin: 20px;
+}
 
 .link {
     background-color: #3a3a3abd;
@@ -166,55 +168,42 @@ p {
     border-radius: 5px;
     box-shadow: inset 2px 2px 3px black;
     width: 250px;
-    height: 100px;
-    margin: auto;
-    padding: 25px;
-    position: relative;
+    height: 150px;
+    padding: 13px;
     display: flex;
-    justify-content: center;
-    margin-bottom: 80px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
     color: var(--cor3);
-    margin-top: 80px;
 }
 
 #link1 {
-
-    margin-right: 30px;
     color: var(--cor3);
 }
 
 #link2 {
-
-    margin-left: 30px;
     color: var(--cor3);
 }
 
 #link1,
 #link2 {
     color: #ffb82b;
-    width: 100px;
-    border-radius: 6px;
-    padding: 5px;
-    height: 18px;
     background-color: #946810;
     border: 5px solid #503605;
-
-
+    padding: 10px;
 }
 
 #pprinc {
     text-align: center;
-    padding: 10px;
-    height: 18px;
     width: 150px;
-    position: absolute;
-    margin-top: 50px;
     color: #ffb82b;
-    border-radius: 6px;
+    border-radius: 6px url(../paginas/pag2.html);
     background-color: #946810;
     border: 5px solid #503605;
-
-
+    height: 50px;
+    line-height: 25px;
+    padding: 5px;
 }
 
 
@@ -428,7 +417,7 @@ li>a:hover {
         border: 0.2vw solid #dda534;
         font-size: 1.3vw;
         padding: 2%;
-        top: 11px;
+        top: 15px;
         left: 65vw;
     }
 
@@ -453,7 +442,7 @@ li>a:hover {
         font-size: 1vw;
         text-align: center;
         width: 25%;
-        height: 128px;
+        height: 250px;
     }
 
     #link1 {
@@ -467,9 +456,11 @@ li>a:hover {
     }
 
     #pprinc {
-        margin-top: 10%;
+        line-height: 3vh;
+        height: 6vh;
+        font-size: 1.5em;
         padding: 2%;
-        width: 14vw;
+        width: 13vw;
     }
 
     .align2,
@@ -615,7 +606,6 @@ li>a:hover {
         padding-left: 10px;
         background-position: center center;
         font-size: 4vw;
-       
         width: 98%;
     }
     
@@ -644,7 +634,7 @@ li>a:hover {
 
     .link {
         text-align: center;
-        width: 80vw;
+        width: 73vw;
 
     }
 
