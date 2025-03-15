@@ -1,0 +1,255 @@
+@media (min-width: 1440px) {
+
+
+    .navprin {
+        border: 0.2vw solid #dda534;
+        font-size: 1.3vw;
+        padding: 2%;
+        top: 15px;
+        left: 65vw;
+    }
+
+
+
+    header {
+        margin-bottom: 5%;
+    }
+
+
+    footer {
+        font-size: 1.2vw;
+    }
+
+
+
+    h2 {
+        font-size: 2vw;
+    }
+
+    .link {
+        font-size: 1vw;
+        text-align: center;
+        width: 25%;
+        height: 250px;
+    }
+
+    #link1 {
+        padding: 2%;
+        width: 7vw;
+    }
+
+    #link2 {
+        padding: 2%;
+        width: 7vw;
+    }
+
+    #pprinc {
+        line-height: 3vh;
+        height: 6vh;
+        font-size: 1.5em;
+        padding: 2%;
+        width: 13vw;
+    }
+
+    .align2,
+    .align4,
+    .align3,
+    .align5,
+    .align6,
+    .align7,
+    .align8 {
+        font-size: 1vw;
+    }
+
+
+    #logot {
+
+        top: 129%;
+        min-width: 19vw;
+        min-width: 20vw;
+
+    }
+
+    .align2 {
+        height: 100%;
+    }
+
+    .bollnone {
+        font-size: 1vw;
+    }
+
+    #license {
+        font-size: 1vw;
+    }
+}
+
+@media (min-width: 727px) and (max-width: 1000px) {
+
+    .align41,
+    .align61,
+    .align71,
+    .align81 {
+        width: 95%;
+    }
+
+    .bollnone {
+        font-size: 12px;
+    }
+
+    .align3,
+    .align4 {
+
+
+        text-align: justify;
+    }
+
+    .align2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main {
+        width: 95%;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 726px) {
+
+  
+
+    .align41,
+    .align61,
+    .align71,
+    .align81 {
+        width: 95%;
+    }
+
+    .bollnone {
+        width: 42%;
+        font-size: 10px;
+    }
+
+    /*Otimização de desempenho*/
+    .align4{
+        background-attachment: scroll;
+       
+        background-image: url(../Imagens/background/corvo1tablet.jpg);
+    }
+    .align6{
+        background-attachment: scroll;
+        background-image: url(../Imagens/background/corvo2tablet.jpg);
+    }
+    .align7{
+        background-attachment: scroll;
+        background-image: url(../Imagens/background/corvo3tablet.jpg);
+    }
+    .align8{
+        background-attachment: scroll;
+        background-image: url(../Imagens/background/corvo4tablet.jpg);
+    }
+
+    body{
+        background-image: url(../Imagens/background/body-layoutcell.jpg);
+    }
+     /*Otimização de desempenho*/
+    
+    .align3,
+    .align4 {
+
+
+        text-align: justify;
+    }
+
+    .align2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main {
+        width: 95%;
+    }
+}
+
+
+
+
+
+@media (max-width: 450px) {
+
+    .navprin_ol{
+        margin-top: 11.5vw;
+    }
+
+    .navprin{
+        padding: 12px;
+        top: 125px;
+        left: 57vw;
+        }
+
+    .align2,
+    .align4,
+    .align3,
+    .align5,
+    .align6,
+    .align7,
+    .align8 {
+        padding-left: 10px;
+        background-position: center center;
+        font-size: 4vw;
+        width: 98%;
+    }
+    
+    /*Otimização de desempenho*/
+    .align4{
+        background-attachment: scroll;
+        background-image: url(../Imagens/background/corvo1cell.jpg); 
+    }
+    .align6{
+        background-attachment: scroll;
+        background-image: url(../Imagens/background/corvo2cell.jpg); 
+    }
+    .align7{
+        background-attachment: scroll;
+        background-image: url(../Imagens/background/corvo3cell.jpg); 
+    }
+    .align8{
+        background-attachment: scroll;
+        background-image: url(../Imagens/background/corvo4cell.jpg); 
+    }
+
+    body{
+        background-image: url(../Imagens/background/body-layoutcell.jpg);
+    }
+     /*Otimização de desempenho*/
+
+    .link {
+        text-align: center;
+        width: 73vw;
+
+    }
+
+    .align41,
+    .align61,
+    .align71,
+    .align81 {
+        margin: 0;
+        width: 91%;
+    }
+
+    .bollnone {
+        width: 58%;
+        font-size: 10px;
+    }
+
+    .align3,
+    .align4 {
+        text-align: justify;
+    }
+
+    .align2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main {
+        border: 3px solid var(--cor3);
+        width: 97%;
+    }
+}
