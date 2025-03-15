@@ -1,4 +1,4 @@
-@media (min-width: 1440px) {
+@media (min-width: 1901px){
 
     .navprin {
         border: 0.2vw solid #dda534;
@@ -21,28 +21,121 @@
     }
 
     .link {
-        font-size: 1vw;
+        font-size: 1.8rem;
         text-align: center;
-        width: 25%;
-        height: 250px;
+        width: 500px;
+        height: 300px;
     }
 
     #link1 {
-        padding: 2%;
-        width: 7vw;
+        line-height: 51px;
+        padding: 5px;
+        width: 200px;
+        height: 50px;
     }
 
     #link2 {
-        padding: 2%;
-        width: 7vw;
+        line-height: 51px;
+        padding: 5px;
+        width: 200px;
+        height: 50px;
     }
 
     #pprinc {
-        line-height: 3vh;
-        height: 6vh;
-        font-size: 1.5em;
+        line-height: 41px;
+        height: 80px;
+        font-size: 1.3em;
+        padding: 5px;
+        width: 300px;
+    }
+
+    .align2,
+    .align4,
+    .align3,
+    .align5,
+    .align6,
+    .align7,
+    .align8 {
+        font-size: 1vw;
+    }
+
+    #logot {
+        top: 129%;
+        min-width: 20vw;
+
+    }
+
+    .align2 {
+        height: 100%;
+    }
+
+    .bollnone {
+        width: 750px;
+        font-size: 1.3vw;
+    }
+
+    .fontf{
+        font-size: 1.5vw;
+    }
+
+    .bollnone > li > a > img{
+        width: 38px;
+    }
+
+    #license {
+        font-size: 1vw;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1900px){
+
+    .navprin {
+        border: 0.2vw solid #dda534;
+        font-size: 1.3vw;
         padding: 2%;
-        width: 13vw;
+        top: 15px;
+        left: 65vw;
+    }
+
+    header {
+        margin-bottom: 5%;
+    }
+
+    footer {
+        font-size: 1.2vw;
+    }
+
+    h2 {
+        font-size: 2vw;
+    }
+
+    .link {
+        font-size: 1rem;
+        text-align: center;
+        width: 300px;
+        height: 200px;
+    }
+
+    #link1 {
+        line-height: 31px;
+        padding: 5px;
+        width: 120px;
+        height: 30px;
+    }
+
+    #link2 {
+        line-height: 31px;
+        padding: 5px;
+        width: 120px;
+        height: 30px;
+    }
+
+    #pprinc {
+        line-height: 35px;
+        height: 65px;
+        font-size: 1.5em;
+        padding: 5px;
+        width: 150px;
     }
 
     .align2,
