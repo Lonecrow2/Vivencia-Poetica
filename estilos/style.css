@@ -410,3 +410,25 @@ li>a:hover {
     color: #f1f1f1;
 }
 
+/*barra de rolagem*/
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 6px;
+    border: 1px solid #dda534;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f4b41a;
+    border-radius: 6px;
+    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffcf31;
+}
