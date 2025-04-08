@@ -1,5 +1,9 @@
 @media (min-width: 1901px){
 
+    #m_leitura {
+        height: 70px;
+        font-size: 50px;
+    }
     .navprin {
         border: 0.2vw solid #dda534;
         font-size: 1.3vw;
@@ -258,7 +262,7 @@
 
     .navprin{
         padding: 12px;
-        top: 125px;
+        top: 65px;
         left: 57vw;
     }
 

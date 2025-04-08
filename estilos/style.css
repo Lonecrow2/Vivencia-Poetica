@@ -49,7 +49,7 @@ main {
     border: 7px solid #dda534;
     width: 80%;
     margin: auto;
-    background: #3a3a3abd;
+    background: #3a3a3af3;
 }
 
 h1 {
@@ -88,7 +88,6 @@ a {
 }
 
 footer {
-
     border-top: 10px solid #ffaa00;
     padding: 10px;
     background-color: #dda534ce;
@@ -97,6 +96,10 @@ footer {
 p {
     max-width: 100%;
     color: #ffd88a;
+}
+
+div > p{
+    text-shadow: 2px 2px 4px rgb(24, 24, 24);
 }
 
 
@@ -255,6 +258,8 @@ p {
     color: #292010;
 }
 
+
+
 .align1 {
     padding: 10px;
     background-image: linear-gradient(to right, #ffaa003d 10%, #ffaa0000 60%);
@@ -278,7 +283,7 @@ p {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right top;
-    box-shadow: inset 0px 0px 10px 5px black;
+    box-shadow: inset 0px 0px 10px 5px #0f0f0f;
     margin: auto;
     width: 80%;
     height: 90%;
@@ -292,7 +297,7 @@ p {
     padding: 10px;
     text-shadow: 2px 2px 4px black;
     width: 70%;
-    background-color: rgba(32, 32, 32, 0.616);
+    background-color: #2020209d;
 }
 
 .align5 {
@@ -388,7 +393,7 @@ p {
 .align8 {
     
     text-shadow: 2px 2px 4px black;
-    background-color: rgb(71, 71, 71);
+    background-color: #474747;
     margin: auto;
     margin-bottom: 50px;
     height: auto;
@@ -431,4 +436,20 @@ li>a:hover {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #ffcf31;
+}
+
+#m_leitura{
+    text-align: right;
+    font-size: 20px;
+    padding: 3px;
+    height: 43px;
+    line-height: 1px;
+    border-radius: 10px;
+    color: #ffce6b;
+    background-color: #946810;
+    border: 3px solid #503605;
+}
+
+#m_leitura:hover{
+    background-color: #6d4905;
 }
