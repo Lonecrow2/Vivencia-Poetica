@@ -153,7 +153,6 @@
     }
 
     #logot {
-
         top: 129%;
         min-width: 19vw;
         min-width: 20vw;
@@ -188,8 +187,6 @@
 
     .align3,
     .align4 {
-
-
         text-align: justify;
     }
 
@@ -219,7 +216,6 @@
     /*Otimização de desempenho*/
     .align4{
         background-attachment: scroll;
-       
         background-image: url(../Imagens/background/corvo1tablet.jpg);
     }
     .align6{
@@ -305,7 +301,6 @@
     .link {
         text-align: center;
         width: 73vw;
-
     }
 
     .align41,
