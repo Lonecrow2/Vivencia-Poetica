@@ -155,6 +155,8 @@ span {
 
 .navprin_ol {
     display: none;
+    overflow-y: scroll;
+    height: 350px;
     margin-top: 3.5vw;
     list-style-position: inside;
     text-align: center;
@@ -174,9 +176,9 @@ span {
 
 .navprin_ol>a>li {
     color: #f1f1f1;
-    padding: 8px;
+    padding: 7px;
     border-radius: 10px;
-    margin: 7px -4px 5px -5px;
+    margin: 7px 5px 5px 5px;
     background-color: #dda534;
 }
 
