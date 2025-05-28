@@ -3,6 +3,8 @@ let navbarContent = `
     <div class="navprin">
       <h1 class="navprin_h1">PÁGINAS</h1>
       <ol class="navprin_ol">
+        <a href="pag12.html" rel="internal"><li>Pag</li></a>
+
         <a href="pag11.html" rel="internal"><li>Pag</li></a>
         
         <a href="pag10.html" rel="internal"><li>Pag</li></a>
