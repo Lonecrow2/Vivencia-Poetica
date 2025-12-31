@@ -139,7 +139,6 @@ span {
 /*box de links PAGINAS*/
 .navprin {
     padding: 20px;
-    border-radius: 20%;
     text-shadow: 1px 1px 2px black;
     border: 2px solid #dda534;
     background-image: linear-gradient(to right, #ffaa003d 10%, #ffaa0000 80%);
